@@ -246,5 +246,5 @@ write.csv( output, "Col5Predictions.csv")
 
 #---> performance metrics are better if no rounding is conducted for values.  However, a post resample of 'float' variables against 'integers'
 # provides an inaccurate results.  1.1 is not 1.  Since all column 5 values are integers, all results must be integers.
-#--> Both correlation and regression algorithms were run on the data.  Regression algorithms proved more accurate and are better at predicting values
+#--> Both classification and regression algorithms were run on the data.  Regression algorithms proved more accurate and are better at predicting values
 # Therefore final analysis only included the regression models.  
