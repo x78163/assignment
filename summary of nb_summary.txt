@@ -1,0 +1,18 @@
+Summary
+Support Vector Machines with Linear Kernel 
+
+6708 samples
+   4 predictor
+
+Pre-processing: centered (4), scaled (4) 
+Resampling: Bootstrapped (25 reps) 
+Summary of sample sizes: 6708, 6708, 6708, 6708, 6708, 6708, ... 
+Resampling results across tuning parameters:
+
+  cost  RMSE      Rsquared    MAE     
+  0.25  5.940161  0.02744242  3.461534
+  0.50  5.943013  0.02742625  3.461436
+  1.00  5.944497  0.02741974  3.461397
+
+RMSE was used to select the optimal model using the smallest value.
+The final value used for the model was cost = 0.25.
