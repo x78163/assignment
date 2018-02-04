@@ -1,0 +1,58 @@
+Summary
+
+Call:
+ randomForest(formula = Column5 ~ ., data = training, method = "rf",      trControl = ctrl, importance = TRUE, ntree = 500, maximize = TRUE) 
+               Type of random forest: regression
+                     Number of trees: 500
+No. of variables tried at each split: 1
+
+          Mean of squared residuals: 6.992604
+                    % Var explained: 75.53
+Summary
+
+Call:
+ randomForest(formula = Column5 ~ ., data = training, method = "rf",      trControl = ctrl, importance = TRUE, ntree = 500, maximize = TRUE) 
+               Type of random forest: regression
+                     Number of trees: 500
+No. of variables tried at each split: 1
+
+          Mean of squared residuals: 8.503273
+                    % Var explained: 70.24
+Summary
+
+Call:
+ randomForest(formula = Column5 ~ ., data = training, method = "rf",      trControl = ctrl, importance = TRUE, ntree = 500, maximize = TRUE) 
+               Type of random forest: regression
+                     Number of trees: 500
+No. of variables tried at each split: 1
+
+          Mean of squared residuals: 6.992604
+                    % Var explained: 75.53
+Summary
+
+Call:
+ randomForest(formula = Column5 ~ ., data = training, method = "rf",      trControl = ctrl, importance = TRUE, ntree = 500, maximize = TRUE) 
+               Type of random forest: regression
+                     Number of trees: 500
+No. of variables tried at each split: 1
+
+          Mean of squared residuals: 6.992604
+                    % Var explained: 75.53
+Summary
+Random Forest 
+
+6708 samples
+   4 predictor
+
+No pre-processing
+Resampling: Bootstrapped (25 reps) 
+Summary of sample sizes: 6708, 6708, 6708, 6708, 6708, 6708, ... 
+Resampling results across tuning parameters:
+
+  mtry  RMSE       Rsquared   MAE      
+  2     0.7353937  0.9899300  0.4124761
+  3     0.3884494  0.9951526  0.2124597
+  4     0.3704652  0.9952531  0.1931692
+
+RMSE was used to select the optimal model using the largest value.
+The final value used for the model was mtry = 2.

@@ -1,0 +1,50 @@
+Summary
+
+Call:
+train.kknn(formula = Column5 ~ ., data = training, kmax = 5,     trControl = ctrl, method = "kknn", method = "optimal")
+
+Type of response variable: continuous
+minimal mean absolute error: 0.066935
+Minimal mean squared error: 0.1208269
+Best kernel: optimal
+Best k: 3
+Summary
+
+Call:
+train.kknn(formula = Column5 ~ ., data = training, kmax = 5,     trControl = ctrl, method = "kknn", method = "optimal")
+
+Type of response variable: continuous
+minimal mean absolute error: 1.639352
+Minimal mean squared error: 6.159696
+Best kernel: optimal
+Best k: 5
+Summary
+
+Call:
+train.kknn(formula = Column5 ~ ., data = training, kmax = 5,     trControl = ctrl, method = "kknn", method = "optimal")
+
+Type of response variable: continuous
+minimal mean absolute error: 0.066935
+Minimal mean squared error: 0.1208269
+Best kernel: optimal
+Best k: 3
+Summary
+
+Call:
+train.kknn(formula = Column5 ~ ., data = training, kmax = 5,     trControl = ctrl, method = "kknn", method = "optimal")
+
+Type of response variable: continuous
+minimal mean absolute error: 0.066935
+Minimal mean squared error: 0.1208269
+Best kernel: optimal
+Best k: 3
+Summary
+
+Call:
+train.kknn(formula = Column5 ~ ., data = training, kmax = 5,     trControl = ctrl, method = "kknn", method = "optimal")
+
+Type of response variable: continuous
+minimal mean absolute error: 0.066935
+Minimal mean squared error: 0.1208269
+Best kernel: optimal
+Best k: 3
